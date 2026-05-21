@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "GET / — неизвестный маршрут возвращает 404",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 401,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
